@@ -7,7 +7,7 @@
     <!-- link reset stylesheet -->
     <link rel="stylesheet" href="css/html5reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="script.js"></script>
+    
 
     <title>Welcome to Tech4Students!</title>
 </head>
@@ -22,7 +22,7 @@
     </nav>
     <main class = "home-main">
         <!-- Main content goes here -->
-        <h1>Welcome!</h1>
+        <h1 class = 'index-welcome'>Welcome!</h1>
         <p class = "welcome">Welcome to Tech4Students, your ultimate guide to equipping yourself for success in college! 
             Whether you're a freshman navigating the exciting world of university life or a seasoned student 
             looking to upgrade your tech arsenal, we're here to make your journey smoother. Our expert-curated 
@@ -34,13 +34,13 @@
         <h2 class = "looking-for">I'm Searching For ...</h2>
 
         <nav class = "pretty-nav">
-            <div>
+            <div class="button" id = 'head' onclick="sendToPage()">
             <strong><a href="headphones.html">HEADPHONES</a></strong>
             </div>
-            <div>
+            <div class="button" id = 'tablet' onclick="sendToPage()">
             <strong><a href="tablets.html">TABLETS</a></strong>
             </div>
-            <div>
+            <div class="button" id = 'laptop' onclick="sendToPage()">
             <strong><a href="laptops.html">LAPTOPS</a></strong>
             </div>
         </nav>
@@ -48,4 +48,5 @@
 
     </main>
 </body>
+<script src="/js/script.js"></script>
 </html>

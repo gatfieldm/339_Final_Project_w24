@@ -135,17 +135,49 @@ h3 {
 }
 
 .pretty-nav {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     background-color: transparent;
     justify-items: center;
-    border: 10px solid yellow;
+    /* border: 10px solid yellow; */
     margin-left: 300px;
     margin-right: 300px;
+    margin-top: 20px;
+    margin-bottom: -20px;
     height: 500px;
-    line-height: 166px;
+    line-height: 100px;
     text-align: center;
+    justify-content: space-around;
+    align-items: center;
+
+    div{
+        border: 10px solid yellow;
+        border-radius: 30px;
+        width: 400px;
+        height: 100px
+    }
+    div:hover {
+        background-color: yellow;
+    }
 
     a {
+        color: rgb(45, 220, 205);
         font-size: 35px;
     }
+    a:hover {
+       
+        color: rgb(45, 220, 205);
+    }
+} 
+/* end of pretty nav */
+
+
+.looking-for {
+    font-size: 30px;
+  
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.index-welcome{
+    font-size: 40px;
 }
