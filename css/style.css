@@ -1,0 +1,50 @@
+body {
+    background-color: #333;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'dejaVu sans', sans-serif;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #ff0;
+}
+
+/* properly style h1 */
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'dejaVu sans', sans-serif;
+    margin: 20px 0;
+}
+
+/* properly style h2 */
+h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'dejaVu sans', sans-serif;
+    margin: 20px 0;
+}
+
+#budget, #intermediate, #expensive {
+    img {
+        width: 50%;
+        height: auto;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
