@@ -121,7 +121,31 @@ h3 {
 .welcome {
     text-align: center;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
     font-family: 'dejaVu sans', sans-serif;
     margin: 20px 0;
+}
+.home-body {
+    background-image: url("/images/homestock25.png");
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+
+}
+
+.pretty-nav {
+    display: grid;
+    background-color: transparent;
+    justify-items: center;
+    border: 10px solid yellow;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 500px;
+    line-height: 166px;
+    text-align: center;
+
+    a {
+        font-size: 35px;
+    }
 }
