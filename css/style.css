@@ -88,7 +88,22 @@ h3 {
     background-color: #4c4c4c;
     
 }
+.button2{
+    img {
+        width: 300px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        align-self: center;
 
+    }
+    padding: 25px;
+    padding-bottom: 10px;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    background-color: #4c4c4c;
+}
 .price {
     color: yellow;
     font-size: 24px;
@@ -166,13 +181,13 @@ h3 {
     }
 
     a {
-        color: rgb(45, 220, 205);
+        color: rgb(250, 252, 253);
         font-size: 35px;
         text-shadow: -2px 2px 0 #2e1111, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
     }
     a:hover {
        
-        color: rgb(45, 220, 205);
+        color: rgb(250, 252, 253);
     }
 } 
 /* end of pretty nav */
@@ -221,4 +236,83 @@ form {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'dejaVu sans', sans-serif; 
+
+        input[type="text"], textarea {
+            width: 300px;
+            height: 40px; 
+            border: 3px solid gold; 
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: 'dejaVu sans', sans-serif;
+        }
+
+    select {
+        width: 300px;
+        height: 40px;
+        background-color: white;
+        color: #333;
+        border: 3px solid gold;
+        border-radius: 10px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    select option {
+        background-color: white;
+        color: black;
+        font-size: 18px; 
+    }
+
+    input[type= "submit"] {
+        width: 200px;
+        height: 50px;
+        background-color: gold;
+        color: black;
+        font-size: 20px;
+        border: 3px solid black;
+        border-radius: 10px;
+        margin-top: 20px;
+        font-family: 'dejaVu sans', sans-serif;
+    }
+
+    input[type= "submit"]:hover {
+        background-color: yellow;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+
+}
+
+/* End of Recommendations page */
+
+
+/* BUTTONS */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.button:hover {
+    transform: scale(1.1); /* Enlarge the button on hover */
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+.button2:hover {
+    /* transform: scale(1.05);  */
+    background-color: grey; /* Change background color on hover */
+    cursor: pointer;
+    img {
+        transform: scale(1.1);
+        transition: transform 0.2s;
+    }
 }
