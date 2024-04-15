@@ -42,7 +42,7 @@ h2 {
 h3 {
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .items{
@@ -66,15 +66,20 @@ h3 {
     
     ul {
         list-style-type: circle;
+        font-size: 20px;
+        line-height: 30px;
     }
 }
 
-#budget, #intermediate, #expensive {
+.budget, .intermediate, .expensive {
 
     img {
         width: 300px;
         height: auto;
         justify-content: center;
+        align-items: center;
+        justify-self: center;
+        align-self: center;
 
     }
     padding: 20px;
