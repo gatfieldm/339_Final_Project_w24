@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <!-- link reset stylesheet -->
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="/js/script.js"></script>
+
+    <title>Tablet Recommendations</title>
+</head>
+<body>
+    <nav>
+        <!-- The nav should contain: Home, Headphones, Tablets, Laptops as labels -->
+        <a href="index.html">HOME</a> 
+        <a href="headphones.html">HEADPHONES</a>
+        <a href ="tablets.html">TABLETS</a>
+        <a href="laptops.html">LAPTOPS</a>
+        <a class = "active" href ="recommendations.html">RECOMMENDATIONS</a>
+    </nav>
+    <main>
+        <!-- Main content goes here -->
+        <h1>Have Custom Tech Recommendations? Send them here!</h1>
+        <form action="submit.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="type">Type:</label><br>
+            <select id="type" name="type">
+            <option value="headphones">Headphones</option>
+            <option value="laptop">Laptop</option>
+            <option value="tablet">Tablet</option>
+            </select><br>
+            <label for="price">Price Range:</label><br>
+            <select id="price" name="price">
+            <option value="$0-49.99">$0-49.99</option>
+            <option value="$50-99.99">$50-99.99</option>
+            <option value="$100-199.99">$100-199.99</option>
+            <option value="$200-499.99">$200-499.99</option>
+            <option value="$500+">$500+</option>
+            </select><br>
+            <label for="info">Additional Information:</label><br>
+            <textarea id="info" name="info"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
